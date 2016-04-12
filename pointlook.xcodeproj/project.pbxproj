@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0AFAADBD1CBC59FD00AFC6C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAADBC1CBC59FD00AFC6C9 /* AppDelegate.swift */; };
-		0AFAADBF1CBC59FD00AFC6C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAADBE1CBC59FD00AFC6C9 /* ViewController.swift */; };
 		0AFAADC21CBC59FD00AFC6C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFAADC01CBC59FD00AFC6C9 /* Main.storyboard */; };
 		0AFAADC41CBC59FD00AFC6C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFAADC31CBC59FD00AFC6C9 /* Assets.xcassets */; };
 		0AFAADC71CBC59FD00AFC6C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFAADC51CBC59FD00AFC6C9 /* LaunchScreen.storyboard */; };
@@ -24,12 +23,15 @@
 		0AFAADE11CBC5B5500AFC6C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFAADE01CBC5B5500AFC6C9 /* SystemConfiguration.framework */; };
 		0AFAADE31CBC5B6100AFC6C9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFAADE21CBC5B6100AFC6C9 /* libz.tbd */; };
 		0AFAADE51CBC5B6C00AFC6C9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFAADE41CBC5B6C00AFC6C9 /* libsqlite3.tbd */; };
+		0AFAADEE1CBC788000AFC6C9 /* resetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAADED1CBC788000AFC6C9 /* resetPasswordVC.swift */; };
+		0AFAADF01CBC78ED00AFC6C9 /* signUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAADEF1CBC78ED00AFC6C9 /* signUpVC.swift */; };
+		0AFAADF21CBC790C00AFC6C9 /* signInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAADF11CBC790C00AFC6C9 /* signInVC.swift */; };
+		0AFAADF61CBC801F00AFC6C9 /* avatars.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFAADF51CBC801F00AFC6C9 /* avatars.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AFAADB91CBC59FD00AFC6C9 /* pointlook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pointlook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFAADBC1CBC59FD00AFC6C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0AFAADBE1CBC59FD00AFC6C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0AFAADC11CBC59FD00AFC6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AFAADC31CBC59FD00AFC6C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AFAADC61CBC59FD00AFC6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +48,10 @@
 		0AFAADE01CBC5B5500AFC6C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0AFAADE21CBC5B6100AFC6C9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		0AFAADE41CBC5B6C00AFC6C9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0AFAADED1CBC788000AFC6C9 /* resetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resetPasswordVC.swift; sourceTree = "<group>"; };
+		0AFAADEF1CBC78ED00AFC6C9 /* signUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpVC.swift; sourceTree = "<group>"; };
+		0AFAADF11CBC790C00AFC6C9 /* signInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInVC.swift; sourceTree = "<group>"; };
+		0AFAADF51CBC801F00AFC6C9 /* avatars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatars.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +97,11 @@
 		0AFAADBB1CBC59FD00AFC6C9 /* pointlook */ = {
 			isa = PBXGroup;
 			children = (
+				0AFAADF51CBC801F00AFC6C9 /* avatars.png */,
+				0AFAADF11CBC790C00AFC6C9 /* signInVC.swift */,
+				0AFAADEF1CBC78ED00AFC6C9 /* signUpVC.swift */,
+				0AFAADED1CBC788000AFC6C9 /* resetPasswordVC.swift */,
 				0AFAADBC1CBC59FD00AFC6C9 /* AppDelegate.swift */,
-				0AFAADBE1CBC59FD00AFC6C9 /* ViewController.swift */,
 				0AFAADC01CBC59FD00AFC6C9 /* Main.storyboard */,
 				0AFAADC31CBC59FD00AFC6C9 /* Assets.xcassets */,
 				0AFAADC51CBC59FD00AFC6C9 /* LaunchScreen.storyboard */,
@@ -184,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFAADF61CBC801F00AFC6C9 /* avatars.png in Resources */,
 				0AFAADC71CBC59FD00AFC6C9 /* LaunchScreen.storyboard in Resources */,
 				0AFAADC41CBC59FD00AFC6C9 /* Assets.xcassets in Resources */,
 				0AFAADC21CBC59FD00AFC6C9 /* Main.storyboard in Resources */,
@@ -197,8 +207,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AFAADBF1CBC59FD00AFC6C9 /* ViewController.swift in Sources */,
+				0AFAADF01CBC78ED00AFC6C9 /* signUpVC.swift in Sources */,
 				0AFAADBD1CBC59FD00AFC6C9 /* AppDelegate.swift in Sources */,
+				0AFAADF21CBC790C00AFC6C9 /* signInVC.swift in Sources */,
+				0AFAADEE1CBC788000AFC6C9 /* resetPasswordVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +374,7 @@
 				0AFAADCD1CBC59FD00AFC6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
